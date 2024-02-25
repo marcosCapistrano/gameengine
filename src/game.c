@@ -184,3 +184,5 @@ void Game_destroy(T game)
 
     SDL_Quit();
 }
+
+#undef T
